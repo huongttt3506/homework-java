@@ -6,7 +6,10 @@ public class D1VarAndTypes {
         // 변수를 선언하고 (khai baó biến)
         int a = 2;
         int b = 3;
-
+        System.out.println("a+b");
+        System.out.print(a);
+        System.out.print("+");
+        System.out.print(b);
         // 사용한다. (sử dụng biến)
         System.out.println(a + b);
         System.out.println(a);
