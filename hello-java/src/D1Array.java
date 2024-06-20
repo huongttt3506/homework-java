@@ -27,21 +27,20 @@ public class D1Array {
         grades[0] = 4.0;
         System.out.println(grades[0]);
 
-        //index out of bounds
-        scores[3] = 10;
-        System.out.println(scores[3]);
-
+        //index out of bounds 오류
+        // scores[3] = 10;
+        // System.out.println(scores[3]);
+        // 배열의 크기만 먼저 정할수는 있다.
+        // 16칸짜리 배열 만들기 (0 ~ 15)
+        int[] arr = new int[16];
         //배열의 크기만 먼저 정할수는 있다
         // 16칸짜리 배열 만들기 (0 ~ 15)
 
         int studentCount = 128;
         int[] ages = new int[studentCount];
 
-        int[] arr = new int[16];
-        //
-
-
-        // 그 숫자만큼
+        //배열의 크기를 알고 싶다면 .length
+        System.out.println(ages.length);
 
 
 
