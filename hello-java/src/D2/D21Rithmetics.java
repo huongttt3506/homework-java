@@ -54,8 +54,8 @@ public class D21Rithmetics {
         int integer = (int)2.1; // 2
         System.out.println(integer);
 
-        //묵시적 형변환 (implicit)
-        byte aByte = 1;
+        //t묵시적 형변환 (implicit)
+        byte aByte = 1; // short ashort = (short) aByte;
         short aShort = aByte;
         int aInt = aShort;
         long aLong = aInt;
